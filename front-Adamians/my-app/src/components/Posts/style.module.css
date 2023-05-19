@@ -1,0 +1,69 @@
+
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-around;
+    margin: 2rem ;
+    padding: 0px;
+}
+
+input[type="text"] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+
+}
+
+.search-container{
+  display: flex;
+  justify-content: end;
+}
+
+.SearchBox{
+  width: 300px;
+}
+
+
+
+.search {
+    display: inline-block;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: ease-in 3s;
+  }
+  
+  .search:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .search:focus {
+    outline: none;
+  }
+  
+  .search::after {
+    content: "";
+    display: inline-block;
+    width: 46px;
+    height: 16px;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/lamar/512/Loop-512.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+
+
+
+  @media screen and (max-width:900px) {
+    .cards-container{
+      display: flex;
+     
+  }
+  
+
+  }
